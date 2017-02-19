@@ -9,10 +9,5 @@ var imgData = [
 	'img/practise/css3-listfold.gif',
 	'img/practise/css3-navfan.gif',
 	'img/practise/css3-tabcube.gif',
-	'img/practise/css3-tabrotate.gif',
-	'img/practise/jq-accordion.gif',
-	'img/practise/jq-dragtogrid.gif',
-	'img/practise/jq-magnifying.gif',
-	'img/practise/jq-massage.gif',
-	'img/practise/jq-tabfocus.gif'
+	'img/practise/css3-tabrotate.gif'
 ];
