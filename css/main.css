@@ -64,11 +64,14 @@ a:hover{
 	text-decoration: none;
 }
 img{
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
+	-webkit-transition: 0.7s;
+	transition: 0.7s;
 }
-a:hover img{
+.left a:hover img{
 	opacity: 0.6;
+}
+.right a:hover img{
+	transform: scale(1.3);
 }
 
 .clearPadding{
@@ -99,4 +102,11 @@ a:hover img{
 .right img{
 	margin: 5px 0;
 	border-radius: 50%;
+}
+
+.flex-cont h4 span{
+	transition: 1s;
+}
+.flex-cont h4 span:hover{
+	transform: rotateX(360deg);
 }
