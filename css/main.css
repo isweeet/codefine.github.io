@@ -10,7 +10,7 @@
 }
 @media (max-width: 768px) {
 	.container-fluid>.row>p{
-		top: 65%;
+		top: 65%!important;
 	}
 }
 
