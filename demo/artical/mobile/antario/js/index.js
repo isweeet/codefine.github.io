@@ -38,7 +38,6 @@ function preload(){
 	var oLoad = document.querySelector('.load');
 	var oSpan = document.querySelector('.preload span');
 	var n = 0; //加载进度百分比
-	var m = 0;
 	var data = [];
 	for (var d in imgData) {
 		data = data.concat(imgData[d]);
@@ -52,10 +51,6 @@ function preload(){
 				endLoad();
 			}
 		};
-		oImg.onerror = function (){
-			m++;
-			console.log(m);
-		}
 		oImg.src = data[i];
 	}
 }
