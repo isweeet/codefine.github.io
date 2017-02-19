@@ -9,7 +9,7 @@
 	}
 }
 @media (max-width: 768px) {
-	.preload p{
+	.container-fluid>.row>p{
 		top: 65%;
 	}
 }

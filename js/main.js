@@ -9,6 +9,7 @@ $(function () {
 				iStatus++;
 				oSpan.html(Math.floor(iStatus/imgData.length*100));
 				if (iStatus==imgData.length) {
+					oSpan.parent().fadeOut();
 					oPreload.slideUp(1600,function (){
 						$(this).remove();
 					});
